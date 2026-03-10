@@ -1,0 +1,23 @@
+import os 
+
+os.system("cls")
+
+cd  = input("Digite um cd de sua preferencia: ")
+
+print("""
+COR             PREÇO
+      VERDE     R$ 10,00
+      AZUL      R$ 20,00
+      AMARELO   R$ 30,00
+      VERMELHO  R$ 40,00
+""")
+
+match cd: 
+    case "VERDE":
+        print("10,00")
+    case "VERMELHO":
+        print("20,00")
+    case "AZUL":
+        print("30,00")
+    case "AMARELO":
+        print("40,00")
