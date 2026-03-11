@@ -9,8 +9,9 @@ segundo_num = float(input("Digite um valor: "))
 media = (primeiro_num + segundo_num) / 2
 
 if media >= 6:
-    print("Parabens aluno aprovado ")
+    print("Parabéns aluno aprovado ")
 else: 
-    print(" que pena aluno reprovado")
+    print("Que pena aluno reprovado")
+
 
 print(f"Media: {media} do aluno.")
